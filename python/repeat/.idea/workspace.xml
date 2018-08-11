@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/neuron_weight.py" line="7" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3626b5bb-536c-4db4-b069-e17e0e866cf4" name="Default Changelist" comment="" />
+    <list default="true" id="584a268d-df5a-43f0-85a1-0a32779c61a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuron_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuron_data_display.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuron_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuron_output.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuron_reading_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuron_sigmoid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuron_weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trial_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../neural_network/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../neural_network/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,54 +23,55 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/neural_network$neuron_clasification.coverage" NAME="neuron_clasification Coverage Results" MODIFIED="1533894111388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/neural_network$neuron_sigmoid.coverage" NAME="neuron_sigmoid Coverage Results" MODIFIED="1533892205559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/neural_network$neuron_readdata.coverage" NAME="neuron_readdata Coverage Results" MODIFIED="1533893243744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/neural_network$neuron_data_display.coverage" NAME="neuron_data_display Coverage Results" MODIFIED="1533893547045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/neural_network$neuron_input.coverage" NAME="neuron_input Coverage Results" MODIFIED="1533891825545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/neural_network$neuron_weight.coverage" NAME="neuron_weight Coverage Results" MODIFIED="1533892500184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/neural_network$neuron_output.coverage" NAME="neuron_output Coverage Results" MODIFIED="1533892034244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/repeat$neuron_output.coverage" NAME="neuron_output Coverage Results" MODIFIED="1533901079967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/repeat$neuron_classification.coverage" NAME="neuron_classification Coverage Results" MODIFIED="1533976664832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/repeat$neuron_input.coverage" NAME="neuron_input Coverage Results" MODIFIED="1533900700035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/repeat$neuron_weight.coverage" NAME="neuron_weight Coverage Results" MODIFIED="1533974633739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/repeat$neuron_reading_data.coverage" NAME="neuron_reading_data Coverage Results" MODIFIED="1533975655155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/repeat$neuron_data_display.coverage" NAME="neuron_data_display Coverage Results" MODIFIED="1533976057892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/repeat$pypy.coverage" NAME="pypy Coverage Results" MODIFIED="1533900692697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/repeat$neuron_sigmoid.coverage" NAME="neuron_sigmoid Coverage Results" MODIFIED="1533901508145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="927702394">
+    <session id="395175583">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="groovy" value="1" />
           <entry key="py" value="8" />
-          <entry key="trial_data" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="trial_data" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="8" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1413" />
+          <entry key="py" value="1775" />
           <entry key="trial_data" value="1" />
-          <entry key="txt" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="130" />
-          <entry key="Python" value="1413" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1775" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,11 +90,9 @@
         <option value="$PROJECT_DIR$/neuron_output.py" />
         <option value="$PROJECT_DIR$/neuron_sigmoid.py" />
         <option value="$PROJECT_DIR$/neuron_weight.py" />
-        <option value="$PROJECT_DIR$/trial-data.txt" />
-        <option value="$PROJECT_DIR$/trial_data" />
-        <option value="$PROJECT_DIR$/neuron_readdata.py" />
+        <option value="$PROJECT_DIR$/neuron_reading_data.py" />
         <option value="$PROJECT_DIR$/neuron_data_display.py" />
-        <option value="$PROJECT_DIR$/neuron_clasification.py" />
+        <option value="$PROJECT_DIR$/neuron_classification.py" />
       </list>
     </option>
   </component>
@@ -90,8 +103,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="865" />
-    <option name="y" value="17" />
+    <option name="x" value="826" />
+    <option name="y" value="4" />
     <option name="width" value="1082" />
     <option name="height" value="1007" />
   </component>
@@ -124,14 +137,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="neural_network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neural_network" type="462c0819:PsiDirectoryNode" />
+              <item name="repeat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repeat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="repeat" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,9 +175,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.neuron_clasification">
-    <configuration name="neuron_clasification" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="neural_network" />
+  <component name="RunManager" selected="Python.neuron_classification">
+    <configuration name="neuron_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="repeat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -166,7 +189,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neuron_clasification.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neuron_classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +199,7 @@
       <method v="2" />
     </configuration>
     <configuration name="neuron_data_display" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="neural_network" />
+      <module name="repeat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -197,8 +220,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="neuron_readdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="neural_network" />
+    <configuration name="neuron_input" type="PythonConfigurationType" factoryName="Python">
+      <module name="repeat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -210,7 +233,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neuron_readdata.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neuron_input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="neuron_reading_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="repeat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neuron_reading_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +265,7 @@
       <method v="2" />
     </configuration>
     <configuration name="neuron_sigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="neural_network" />
+      <module name="repeat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -242,7 +287,7 @@
       <method v="2" />
     </configuration>
     <configuration name="neuron_weight" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="neural_network" />
+      <module name="repeat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -264,17 +309,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.neuron_input" />
       <item itemvalue="Python.neuron_sigmoid" />
       <item itemvalue="Python.neuron_weight" />
-      <item itemvalue="Python.neuron_readdata" />
+      <item itemvalue="Python.neuron_reading_data" />
       <item itemvalue="Python.neuron_data_display" />
-      <item itemvalue="Python.neuron_clasification" />
+      <item itemvalue="Python.neuron_classification" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.neuron_clasification" />
+        <item itemvalue="Python.neuron_classification" />
         <item itemvalue="Python.neuron_data_display" />
-        <item itemvalue="Python.neuron_readdata" />
+        <item itemvalue="Python.neuron_reading_data" />
         <item itemvalue="Python.neuron_weight" />
         <item itemvalue="Python.neuron_sigmoid" />
       </list>
@@ -285,23 +331,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3626b5bb-536c-4db4-b069-e17e0e866cf4" name="Default Changelist" comment="" />
-      <created>1533891470795</created>
+      <changelist id="584a268d-df5a-43f0-85a1-0a32779c61a5" name="Default Changelist" comment="" />
+      <created>1533899730773</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533891470795</updated>
+      <updated>1533899730773</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="865" y="17" width="1082" height="1007" extended-state="0" />
+    <frame x="826" y="4" width="1082" height="1007" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24414062" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2548828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290398" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32990867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,7 +361,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.4468504" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.7451172" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -326,62 +372,79 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-Groovy.html.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/neuron_output.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="30" column="28" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neuron_sigmoid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trial-data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="99" selection-end-line="99" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trial_data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neuron_readdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="53" column="39" selection-end-line="53" selection-end-column="40" />
+        <state relative-caret-position="507">
+          <caret line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/neuron_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="32" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neuron_clasification.py">
+    <entry file="file://$PROJECT_DIR$/../neural_network/neuron_readdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="238">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuron_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trial_data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/neuron_data_display.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="62" selection-end-line="62" selection-end-column="40" />
+        <state relative-caret-position="507">
+          <caret line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuron_reading_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="56" selection-end-line="56" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/neuron_weight.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="38" column="3" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="507">
+          <caret line="45" column="10" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuron_sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
