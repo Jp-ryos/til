@@ -1,21 +1,16 @@
-<html>
-	<head>
-    	<title>til-Today I Learned</title>
-	</head>
-	<body>
-		<div>
-			<h1><a href="">til</a></h1>
-		</div>
-		<div>
-			<p>published: 14.06.2014, 12:14</p>
-			<h2><a href="">My first post</a></h2>
-		</div>
-		<div>
-			<p>published: 14.06.2014, 12:14</p>
-			<h2><a href="">My second post</a></h2>
-		</div>
-	</body>
-</html>
+{% extends 'blog/base.html' %}
 
-
+{% block content %}
+	{% for post in posts %}
+		<div class="post">
+			<div class="date">
+				{{ post.published_date }}
+			</div>
+			<h1>
+				<a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a>
+			</h1>
+			<p>{{ post.text|linebreaks }}</p>
+		</div>
+	{% endfor %}
+{% endblock content %}
 
