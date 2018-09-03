@@ -1,6 +1,7 @@
 # Today I Learned
-This is "Today I Learned" repository. 
-
+This is "Today I Learned" repository.   
+（注） このレポジトリはただただできるようになったこと()をあげているだけです。  
+ 
 # java
 RPG用のライブラリーを製作中。ドラゴン〇エスト(1,2,3くらいまで?)の劣化版が作れるくらいの  
 ものを目指しています。
