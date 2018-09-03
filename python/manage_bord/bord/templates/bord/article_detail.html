@@ -1,0 +1,16 @@
+{% extends 'bord/base.html' %}
+
+{% block content %}
+    <div class="article">
+		{% if article.published_date %}
+			<div class="date">
+				{{ article.published_date }}
+			</div>
+		{% endif %}
+		<small>スレ主: {{ article.author }}</small><br>
+		<h1>{{ article.title }}</h1>
+		<hr>
+		<p>{{ article.text|linebreaks }}</p>
+		<hr>
+	</div>
+{% endblock %}
