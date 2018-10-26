@@ -1,10 +1,11 @@
 package Jp_ryos.lib;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.*;
+import java.awt.event.*;
 import java.io.*;
 import javax.imageio.*;
-import java.awt.event.*;
 
 public class SupGame extends JApplet{
 	SupPanel m_sp; 
@@ -31,6 +32,11 @@ public class SupGame extends JApplet{
 		this.m_sp.draw(s);
 	}
 
+	public void draw(String str, int x, int y)
+	{
+		this.m_sp.draw(str,x,y);
+	}
+
 	public void fillRect(int x, int y, int w, int h)
 	{
 		this.m_sp.fillRect(x, y, w, h);
@@ -44,5 +50,10 @@ public class SupGame extends JApplet{
 	public void setColor(int rgb)
 	{
 		this.m_sp.setColor(rgb);
+	}
+
+	public void setFont(Font f)
+	{
+		this.m_sp.setFont(f);
 	}
 }

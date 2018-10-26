@@ -48,6 +48,11 @@ public class SupPanel extends JPanel{
 		s.draw(this.m_g);
 	}
 
+	public void draw(String str, int x, int y)
+	{
+		this.m_g.drawString(str,x,y);
+	}
+
 	public void fillRect(int x, int y, int w, int h)
 	{
 		this.m_g.fillRect(x, y, w, h);

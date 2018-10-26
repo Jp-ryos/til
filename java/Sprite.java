@@ -3,9 +3,9 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 
-public class MySprite extends SupSprite
+public class Sprite extends SupSprite
 {
-	public MySprite(String s, int x, int y, int w, int h)throws IOException
+	public Sprite(String s, int x, int y, int w, int h)throws IOException
 	{
 		super(s, x, y, w, h);
 	}

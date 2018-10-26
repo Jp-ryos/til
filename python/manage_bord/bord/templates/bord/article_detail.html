@@ -3,14 +3,24 @@
 {% block content %}
     <div class="article">
 		{% if article.published_date %}
-			<div class="date">
-				{{ article.published_date }}
-			</div>
+			<div class="date">{{ article.published_date }}</div>
 		{% endif %}
 		<small>スレ主: {{ article.author }}</small><br>
 		<h1>{{ article.title }}</h1>
 		<hr>
 		<p>{{ article.text|linebreaks }}</p>
-		<hr>
 	</div>
+	<hr>
+	{% for less in article.lesss.all %}
+		<div class="date">{{ less.created_date }}</div>
+		<strong>{{ less.author }}</strong>
+		<p>{{ less.text|linebreaks}}</p>
+	{% empty %}
+		<p>No Comments yet :(</p>
+	{% endfor %}
+	 <h1>New comment</h1>
+		<form method="POST" class="post-form">{% csrf_token %}
+			 {{ form.as_p }}
+		<button type="submit" class="save btn btn-default">Send</button>
+		</form>
 {% endblock %}
