@@ -6,6 +6,7 @@ public class EditerApp
 	{
 		Editer edit = new Editer();
 		edit.setSize(600, 450);
+		edit.setLocation(100, 100);
 		edit.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		edit.setVisible(true);
 	}

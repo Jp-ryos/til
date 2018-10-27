@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class MenuComponent extends JMenuBar
+public class MenuBarComponent extends JMenuBar
 {
 
 }

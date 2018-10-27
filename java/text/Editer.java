@@ -2,22 +2,30 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Editer extends JFrame
+public class Editer extends JFrame 
 {
-	private EditField ed_fl;
-	private MenuComponent m_co;
-//	private FileExplorer fl_exp;
+	private EditFieldComponent ef_cp;
+//	private MenuBarComponent mb_cp;
+//	private FileExplorerComponent fep_cp;
+//	private KeyBindManager kb_mng;
 
 	public Editer()
 	{
-		ed_fl = new EditField(10, 50);
-//		fl_exp = new FileExplorer();
-		JScrollPane scroll = new JScrollPane(ed_fl,
+		ef_cp = new EditFieldComponent(10, 50);
+//		kb_mng = new KeyBindManager(ef_cp);
+		JScrollPane scroll = new JScrollPane(ef_cp,
 								JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, 
 								JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-		m_co = new MenuComponent();
+		addKeyListener(new KeyBindManager(ef_cp));
+		setFocusable(true);
+//		fep_cp = new FileExplorerComponent();
+//		mb_cp = new MenuBarComponent();
 		add(scroll);
-		add(m_co);
+//		add(mb_cp);
+//		add(fep_cp);
 	}
+
+
+	
 
 }
