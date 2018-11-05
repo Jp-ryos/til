@@ -1,0 +1,95 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+
+public class Fsave extends JFrame implements ActionListener
+{
+	String str;
+	JPanel jp;
+	JTextArea jta;
+	JTextField jtf;
+	JButton jb;
+	FileReader fp;
+
+	public Fsave()
+	{
+		str = "";
+		this.jp = new JPanel();
+		BorderLayout bl = new BorderLayout();
+		this.jp.setLayout(bl);
+		this.jb = new JButton("Fsave");
+		this.jtf = new JTextField();
+		this.jta = new JTextArea();
+		this.jp.add(jb, BorderLayout.SOUTH);		
+		this.jp.add(jtf, BorderLayout.NORTH);	
+		this.jp.add(jta, BorderLayout.CENTER);	
+		add(this.jp);
+		this.jb.addActionListener(this);
+		
+	}
+
+	public String SearchFile()
+	{
+		if(this.jtf.getText() != null) {
+			return this.jtf.getText();
+		}
+		else{
+			return null;
+		}	
+	}
+
+	public void SaveFile(String fname)
+	{
+		try{
+			FileWriter fw = new FileWriter(fname); 
+			BufferedWriter bw = new BufferedWriter(fw);
+			bw.write(this.jta.getText());                         
+			bw.close();
+			fw.close();
+		}catch(IOException e){
+			System.out.println(e);
+		}
+		
+	}
+
+	public void LoadFile(String fname)
+	{
+		try{
+                        this.fp = new FileReader(fname);  
+			BufferedReader br = new BufferedReader(this.fp);
+			String buf;
+			while ((buf = br.readLine()) != null) 
+	    		{
+				str += buf + "\n";
+		    	}
+		    	br.close();
+		    	this.fp.close(); 
+				    
+			}catch(IOException e){
+				System.out.println(e);
+                	}
+	}
+
+	public void actionPerformed(ActionEvent e)
+	{
+		if (e.getSource() == jb) { 
+			if(this.jtf.getText() != null)
+			{
+				SaveFile(this.jtf.getText());
+			}
+			else{
+				return;
+			}
+		}
+
+	}
+	
+	public static void main(String[] args)
+	{
+		Fsave fo = new Fsave();
+		fo.setLocation(100,100);
+		fo.setSize(600,450);
+		fo.setVisible(true);
+	}	
+}
