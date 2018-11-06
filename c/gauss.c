@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define Q 1
+#define Q 4
 
 // #define USE_DOUBLE	// 倍精度実数を利用する
 #define USE_PIVOT	// ピボット選択を利用する
@@ -93,29 +93,27 @@ void printMat(char *title, FLOAT a[ROW][COL])
 
 void scaleRow(FLOAT a[ROW][COL], int k)
 {
-	int row, col;
-	FLOAT abs_max = Abs(a[0][0]);
+	int col;
+	FLOAT abs_max = 0;
 
-	for(row = 0; row < ROW; row++){
-		for(col = 0; col < COL; col++){
-			if(Abs(a[row][col]) > abs_max) abs_max = Abs(a[row][col]);
-		}
+	for(col = 0; col < COL; col++){
+		if(Abs(a[k][col]) > abs_max) abs_max = Abs(a[k][col]);
 	}
 
-	for(row = 0; row < ROW; row++){
-		for(col = 0; col < COL; col++){
-			a[row][col] /= abs_max;
-		}
+
+	for(col = 0; col < COL; col++){
+		a[k][col] /= abs_max;
 	}
+
 	printMat("scaleRow終了時",a);
 }
 
 void swapRow(FLOAT a[ROW][COL], int i1, int i2)
 {
-		int i, tmp;
+		int i;
+		FLOAT tmp;
 		if(i1 == i2) return;
 
-		tmp = 0;
 		for(i = 0; i < ROW; i++){
 			tmp = a[i][i1];
 			a[i][i1] = a[i][i2];
@@ -130,14 +128,17 @@ void pivot(FLOAT a[ROW][COL], int k)
 	int piv = k;
 	FLOAT abs_max = Abs(a[k][k]);
 
-	for(i = k+1; i < ROW; i++){
+	for(i = k; i < ROW; i++){
+#ifdef USE_SCALE
+		scaleRow(a, i);
+#endif
 		if(Abs(a[i][k]) > abs_max){
 			piv = i;
 			abs_max = Abs(a[i][k]);
 		}
 	}
 
-	if(k != piv) swapRow(a, k, piv);
+	swapRow(a, k, piv);
 
 }
 
