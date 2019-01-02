@@ -5,7 +5,7 @@ This is "Today I Learned" repository.
 ## java
 - RPG用のライブラリーを製作中。ドラゴン〇エスト(1,2,3くらいまで?)の劣化版が作れるくらいの  
 ものを目指しています。  
-- Web開発やってます。
+- Web開発やってます。[そのリンク](https://github.com/Jp-ryos/myJavaApp)
 
 ## python 
 - 成果物を公開しています(そのウェブ自体が成果物ですが…)。  
